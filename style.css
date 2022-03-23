@@ -10,24 +10,27 @@
 
 .nav-container {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 }
 
 h3 {
-    display: inline-block;
     font-size: 24px;
     color: #F9FAF8;
-    border: 1px solid red;
 }
 
 li {
+    display: inline;
+    padding: 5px 5px;
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
-    border: 1px solid red;
 }
 
 a {
     text-decoration: none;
+    list-style: none;
 }
 
 h1 {
@@ -44,7 +47,7 @@ p {
 .second-container {
 display: flex;
 justify-content: space-between;
-margin-top: 50px;
+margin-top: 75px;
 padding: 25px 10px;
 }
 
@@ -69,12 +72,15 @@ padding: 25px 10px;
         }
 
     .right-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         height: 250px;
         width: 500px;
         background-color: grey;
     }
 
-        .right-container p {
+        .right-container .placeholder {
             text-align: center;
         }
 
