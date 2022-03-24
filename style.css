@@ -108,10 +108,77 @@ padding: 25px 200px;
 }
 
 .fourth-container {
-    margin: 25px;
+    margin-top: 100px;
     padding: 25px 200px;
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.fourth-container > .quote {
+    display: flex;
+    height: 250px;
+    width: auto;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-container > .thor {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.fifth-container{
+    margin: 100px 0px;
+    padding: 25px 200px;
+    height: 200px;
+}
+
+.blue-container {
+display: inline-block;
+width: 1000px;
+padding: 30px 150px;
+border-radius: 10px;
+background-color: #3882F6;
+}
+
+.p-1 {
+display: inline-flex;
+color: #F9FAF8;
+font-size: 24px;
+font-weight: 700;
+border: 1px solid red;
+}
+
+.button{
+    display: flex;
+    float: right;
+    border: 1px solid red;
+}
+
+.button button {
+    justify-content: center;
+    align-items: center;
+    padding: 5px 30px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #3882F6;
+    border-radius: 10px;
 }
 
 footer {
     background-color: #1F2937;
+    padding: 30px 100px;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
 }
